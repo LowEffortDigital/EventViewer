@@ -1,0 +1,43 @@
+{
+  "app": "eventviewer",
+  "name": "EventViewer",
+  "version": "v1.0",
+  "tagline": "Windows 11 Event Viewer, Unified Log & Diagnostic Suite",
+  "short_description": "Windows Event Viewer clarity engineered natively for macOS Unified Logging. Stream System, Application, Security, Kernel, and Network channels in real time with split Windows XML & JSON inspection, a 3-column interactive Bezier Event Correlation Flow Map, Crash & EXC_GUARD Diagnostic Report Inspector, floating desktop HUD widgets, custom Menu Bar token builder with EV monogram badge, and 9 Low Effort themes.",
+  "spotlight_description": "Windows 11 Event Viewer clarity combined with real-time macOS Unified Logging (`OSLogStore`), CrashReporter `.ips` forensics, and interactive 3-column Bezier Event Correlation Flow Maps. Features structured 5-channel categorization (System, Security & Auth, Application, Hardware & IOKit, Crash & Diagnostics), Windows Event XML + JSON dual payload inspector, custom modular desktop HUD widgets, custom Menu Bar token builder with embossed `EV` monogram badge, and 9 studio themes with live Dock icon switching.",
+  "catalog_description": "Windows 11 Event Viewer clarity engineered natively in Swift 6 for macOS. Streams and categorizes macOS `OSLogStore` logs into 5 structured channels (System, Security & Auth, Application, Hardware & IOKit, Crash & Diagnostics) with deterministic Event IDs, Windows Event XML + JSON payload inspector, interactive 3-column Bezier Event Correlation Flow Map with 1-click process isolation, `.ips`/`.crash` DiagnosticReports parser, saved custom filter views, 5 desktop liquid-glass HUD widgets, custom Menu Bar token builder (`EV` monogram), and 9 themes.",
+  "spotlight_chips": [
+    "5-Channel Log Explorer",
+    "Sortable / Resizable / Moveable Columns",
+    "Windows Event XML + JSON",
+    "3-Column Event Flow Map",
+    "1-Click Process Isolation",
+    "Crash & EXC_GUARD Forensics",
+    "Saved Custom Filter Views",
+    "Sub-Second Desktop HUDs",
+    "Modular Custom Widgets",
+    "Menu Bar Builder (EV Icon)",
+    "9 Themes & Dock Icons",
+    "Zero Telemetry Capture"
+  ],
+  "catalog_chips": [
+    "5-channel OSLogStore",
+    "Windows Event XML + JSON",
+    "3-column correlation map",
+    "1-click process isolation",
+    ".ips & .crash forensics",
+    "Saved custom filter views",
+    "Live event ticker HUD",
+    "Security & auth HUD",
+    "Modular custom widgets",
+    "EV monogram menu bar",
+    "60s stacked rate chart",
+    "9 studio themes & icons",
+    "Sortable & moveable columns",
+    "CSV / JSON / XML export",
+    "Zero telemetry capture"
+  ],
+  "repo_url": "https://github.com/LowEffortDigital/EventViewer",
+  "releases_url": "https://github.com/LowEffortDigital/EventViewer/releases",
+  "dmg_url": "https://github.com/LowEffortDigital/EventViewer/releases/latest/download/EventViewer.dmg"
+}
