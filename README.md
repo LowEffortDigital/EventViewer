@@ -1,6 +1,14 @@
 <div align="center">
 
-<img src="Resources/branding/app_icon_512.png" alt="EventViewer Logo" width="128" height="128" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="Resources/branding/loweffort_digital/svg/le_lockup_horizontal.svg">
+  <source media="(prefers-color-scheme: light)" srcset="Resources/branding/loweffort_digital/svg/le_lockup_horizontal_light.svg">
+  <img alt="Low Effort Digital — Development Studios" src="Resources/branding/loweffort_digital/svg/le_lockup_horizontal.svg" width="440">
+</picture>
+
+<br/><br/>
+
+<img src="Resources/branding/app_icon_512.png" alt="EventViewer Logo" width="112" height="112" />
 
 # EventViewer for macOS (v1.0)
 
@@ -34,6 +42,7 @@ Designed and engineered by **Low Effort Design Studios** as the companion diagno
   - **Security** (`tccd`, `authd`, `syspolicyd`, `Sandbox`, `endpointsecurityd`)
   - **Kernel** (`kernel_task`, `IOGPUFamily`, `IONVMeFamily`, `APFS`, `memorystatus`)
   - **Network** (`mDNSResponder`, `nesessionmanager`, `symptomsd`, `trustd`)
+- **Sortable, Resizable & Moveable Columns**: Click any column header (`★`, `Level`, `Date and Time`, `Channel`, `Source / Process`, `PID`, `Event ID`, `Subsystem`, `Category`, `Thread`, `Computer`, `Operational Message`) to sort ascending/descending, drag column headers left or right to reorder, drag column dividers to resize width, or toggle optional columns from the **Columns** menu.
 - **Split Event Inspector**: Inspect any event in **General** property view, **Windows `<Event>` XML** view, or **macOS Unified Log JSON** view.
 - **1-Click Isolation & Process HUDs**: Isolate any process or subsystem across the entire app, or pin a process-locked floating desktop HUD widget in one click.
 
@@ -69,7 +78,7 @@ Designed and engineered by **Low Effort Design Studios** as the companion diagno
 - **9 Signature Themes**: `Dark Mode`, `Light Mode`, `Brand Purple`, `Hot Pink`, `Amber Gold`, `Cyber Cyan`, `Emerald Green`, `Monochrome`, and `Follow System` with live Dock icon switching and customizable monogram (`EV`, `EE`, `LE`).
 - **Per-Channel Custom Accent Colors** & **Dynamic Amber/Red Alert Rate Thresholds**.
 - **Menu Bar Token Designer**: Build your own macOS status bar item combining badges, event rates, error counts, and channel rates.
-- **Built-in GitHub Auto-Updater** (`AutoUpdateManager`) & **Anonymous On-Device Runtime Telemetry** (`RuntimeTelemetryManager`).
+- **Built-in GitHub Auto-Updater** (`AutoUpdateManager`) & **Zero Telemetry Capture** (100% offline/on-device log inspection with zero analytics or tracking).
 
 <img src="docs/screenshots/05_MenuBar_And_Themes.png" alt="Menu Bar Designer and Themes" width="100%" />
 
