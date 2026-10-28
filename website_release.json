@@ -1,7 +1,7 @@
 {
   "app": "eventviewer",
   "name": "EventViewer",
-  "version": "v1.0",
+  "version": "v1.1",
   "tagline": "Windows 11 Event Viewer, Unified Log & Diagnostic Suite",
   "short_description": "Windows Event Viewer clarity engineered natively for macOS Unified Logging. Stream System, Application, Security, Kernel, and Network channels in real time with split Windows XML & JSON inspection, a 3-column interactive Bezier Event Correlation Flow Map, Crash & EXC_GUARD Diagnostic Report Inspector, floating desktop HUD widgets, custom Menu Bar token builder with EV monogram badge, and 9 Low Effort themes.",
   "spotlight_description": "Windows 11 Event Viewer clarity combined with real-time macOS Unified Logging (`OSLogStore`), CrashReporter `.ips` forensics, and interactive 3-column Bezier Event Correlation Flow Maps. Features structured 5-channel categorization (System, Security & Auth, Application, Hardware & IOKit, Crash & Diagnostics), Windows Event XML + JSON dual payload inspector, custom modular desktop HUD widgets, custom Menu Bar token builder with embossed `EV` monogram badge, and 9 studio themes with live Dock icon switching.",
