@@ -40,3 +40,9 @@
 
 - **GitHub Releases Auto-Updater (`AutoUpdateManager`)**: Checks `LowEffortDigital/EventViewer` for new releases and downloads `.dmg` updates with a 3-tier fallback (`URLSession` octet-stream API download with redirect header stripping, `gh release download` fallback, and direct browser URL fallback).
 - **Zero Telemetry Capture**: 100% local log inspection with zero usage telemetry, zero analytics beacons, and zero tracking.
+
+## Optional Cards and visual widget gallery (1.3)
+
+Settings → Custom Widgets → Widget Gallery shows six sample previews. Select a preview and Add Widget, then configure its scope, summary, graph and scale. Existing custom HUDs remain Classic; built-in HUD layouts are unchanged. Cards summarize timestamped events retained in the selected buffer, with 60 intervals at the sampling cadence. The eight graph forms include severity composition and paired error/warning rates; adaptive/fixed domains do not alter alert thresholds. An empty target never silently switches to the global stream.
+
+![EventViewer native Card previews — sample data](docs/screenshots/06_Widget_Cards.png)
