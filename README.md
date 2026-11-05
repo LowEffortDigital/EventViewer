@@ -10,7 +10,7 @@
 
 <img src="Resources/branding/app_icon_512.png" alt="EventViewer Logo" width="112" height="112" />
 
-# EventViewer for macOS (v1.0)
+# EventViewer for macOS (v1.3)
 
 **Windows 11 Event Viewer Clarity × Native macOS Unified Logging, Interactive Event Flow Topology & Liquid Glass Desktop HUDs**
 
@@ -88,7 +88,7 @@ Designed and engineered by **Low Effort Design Studios** as the companion diagno
 
 ### Direct Download (`.dmg`)
 Download the latest universal macOS disk image from GitHub Releases:
-- [**Download EventViewer.dmg (v1.0)**](https://github.com/LowEffortDigital/EventViewer/releases/latest/download/EventViewer.dmg)
+- [**Download EventViewer.dmg (v1.3)**](https://github.com/LowEffortDigital/EventViewer/releases/latest/download/EventViewer.dmg)
 
 ### Build from Source
 ```bash
@@ -111,3 +111,9 @@ swift test
 - [**Complete Feature Guide (`FEATURE_GUIDE.md`)**](FEATURE_GUIDE.md)
 - [**Privacy Policy (`PRIVACY.md`)**](PRIVACY.md) — 100% local log inspection; zero log data ever leaves your Mac.
 - [**MIT License (`LICENSE`)**](LICENSE)
+
+### Optional Card widget gallery (1.3)
+
+Six selectable previews and eight event graph styles complement the existing Classic HUDs. New Cards summarize scoped buffered events with optional adaptive/fixed rate scaling.
+
+![EventViewer native Card previews — sample data](docs/screenshots/06_Widget_Cards.png)
