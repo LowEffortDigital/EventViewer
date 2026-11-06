@@ -1,3 +1,13 @@
+# ⚠️ EventViewer Has Moved to **EventMon v2.0** (`LowEffortDigital/EventMon`)
+
+> **Repository Moved**: As part of the **Low Effort Mon Suite v2.0** release (`PerfMon`, `EventMon`, `VolMon`, `WebMon`), **EventViewer** has been renamed to **[EventMon](https://github.com/LowEffortDigital/EventMon)** and bumped to **v2.0.0**.
+>
+> - **New Official Distribution Repository**: **[https://github.com/LowEffortDigital/EventMon](https://github.com/LowEffortDigital/EventMon)**
+> - **Direct v2.0.0 macOS Download (`.dmg`)**: **[Download EventMon v2.0.0 (`EventMon.dmg`)](https://github.com/LowEffortDigital/EventMon/releases/latest/download/EventMon.dmg)**
+> - **Installed v1.x Auto-Update Support**: This repository remains online with a `v2.0.0` bridge release so installed `EventViewer v1.x` apps checking `LowEffortDigital/EventViewer` automatically detect and upgrade to **EventMon v2.0.0** while preserving your saved preferences and themes.
+
+---
+
 <div align="center">
 
 <picture>
@@ -8,18 +18,18 @@
 
 <br/><br/>
 
-<img src="Resources/branding/app_icon_512.png" alt="EventViewer Logo" width="112" height="112" />
+<img src="Resources/branding/app_icon_512.png" alt="EventMon Logo" width="112" height="112" />
 
-# EventViewer for macOS (v1.4)
+# EventMon for macOS (v2.0.0)
 
 **Windows 11 Event Viewer Clarity × Native macOS Unified Logging, Interactive Event Flow Topology & Liquid Glass Desktop HUDs**
 
 [![Swift 6.0](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://swift.org)
 [![Platform](https://img.shields.io/badge/Platform-macOS%2014.0%2B-purple.svg)](https://www.apple.com/macos)
 [![License: MIT](https://img.shields.io/badge/License-MIT-cyan.svg)](LICENSE)
-[![Download Latest DMG](https://img.shields.io/badge/Download-EventViewer.dmg-8B5CF6.svg)](https://github.com/LowEffortDigital/EventViewer/releases/latest/download/EventViewer.dmg)
+[![Download Latest DMG](https://img.shields.io/badge/Download-EventMon.dmg-8B5CF6.svg)](https://github.com/LowEffortDigital/EventMon/releases/latest/download/EventMon.dmg)
 
-<img src="docs/screenshots/app_store_feature_banner.png" alt="EventViewer v1.0 Showcase Banner" width="100%" />
+<img src="docs/screenshots/app_store_feature_banner.png" alt="EventMon v2.0 Showcase Banner" width="100%" />
 
 </div>
 
@@ -27,9 +37,9 @@
 
 ## Overview
 
-**EventViewer** brings the structured channel organization, Event ID filtering, Custom Views, and XML/JSON property inspection of **Windows Event Viewer** to macOS—powered by native **macOS Unified Logging (`OSLog`)**, **Darwin/Mach system telemetry**, a **3-Column Interactive Bezier Event Correlation Flow Map**, a **Diagnostic & Crash Report Inspector**, and **Floating Liquid Glass Desktop HUD Widgets**.
+**EventMon** (formerly *EventViewer*) brings the structured channel organization, Event ID filtering, Custom Views, and XML/JSON property inspection of **Windows Event Viewer** to macOS—powered by native **macOS Unified Logging (`OSLog`)**, **Darwin/Mach system telemetry**, a **3-Column Interactive Bezier Event Correlation Flow Map**, a **Diagnostic & Crash Report Inspector**, and **Floating Liquid Glass Desktop HUD Widgets**.
 
-Designed and engineered by **Low Effort Design Studios** as the companion diagnostic suite to [**PerfMon**](https://github.com/LowEffortDigital/PerfMon).
+Designed and engineered by **Low Effort Design Studios** as part of the **Low Effort Suite v2.0** alongside [**PerfMon**](https://github.com/LowEffortDigital/PerfMon), [**VolMon**](https://github.com/LowEffortDigital/VolMon), and [**WebMon**](https://github.com/LowEffortDigital/WebMon).
 
 ---
 
@@ -75,7 +85,7 @@ Designed and engineered by **Low Effort Design Studios** as the companion diagno
 <img src="docs/screenshots/04_Desktop_HUD_Widgets.png" alt="Desktop HUD Widgets" width="100%" />
 
 ### 5. Custom Menu Bar Designer & 9 Low Effort Digital Themes
-- **9 Signature Themes**: `Dark Mode`, `Light Mode`, `Brand Purple`, `Hot Pink`, `Amber Gold`, `Cyber Cyan`, `Emerald Green`, `Monochrome`, and `Follow System` with live Dock icon switching and customizable monogram (`EV`, `EE`, `LE`).
+- **9 Signature Themes**: `Dark Mode`, `Light Mode`, `Brand Purple`, `Hot Pink`, `Amber Gold`, `Cyber Cyan`, `Emerald Green`, `Monochrome`, and `Follow System` with live Dock icon switching and customizable monogram (`EM`, `EE`, `LE`).
 - **Per-Channel Custom Accent Colors** & **Dynamic Amber/Red Alert Rate Thresholds**.
 - **Menu Bar Token Designer**: Build your own macOS status bar item combining badges, event rates, error counts, and channel rates.
 - **Built-in GitHub Auto-Updater** (`AutoUpdateManager`) & **Zero Telemetry Capture** (100% offline/on-device log inspection with zero analytics or tracking).
@@ -88,16 +98,16 @@ Designed and engineered by **Low Effort Design Studios** as the companion diagno
 
 ### Direct Download (`.dmg`)
 Download the latest universal macOS disk image from GitHub Releases:
-- [**Download EventViewer.dmg (v1.4)**](https://github.com/LowEffortDigital/EventViewer/releases/latest/download/EventViewer.dmg)
+- [**Download EventMon.dmg (v2.0.0)**](https://github.com/LowEffortDigital/EventMon/releases/latest/download/EventMon.dmg)
 
 ### Build from Source
 ```bash
-git clone https://github.com/Facelesswhite/EventViewer.git
-cd EventViewer
+git clone https://github.com/Facelesswhite/EventMon.git
+cd EventMon
 ./Scripts/generate_icns.sh
 ./Scripts/build_app.sh
 ./Scripts/package_dmg.sh
-open dist/EventViewer.app
+open dist/EventMon.app
 ```
 
 ### Run Unit Tests

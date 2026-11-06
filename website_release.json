@@ -1,13 +1,13 @@
 {
-  "app": "eventviewer",
-  "name": "EventViewer",
-  "version": "v1.4",
+  "app": "eventmon",
+  "name": "EventMon",
+  "version": "v2.0.0",
   "tagline": "Windows 11 Event Viewer, Unified Log & Diagnostic Suite",
-  "short_description": "Native macOS event exploration with cross-app Low Effort Suite theme and persistent Dock icon sync, optional rounded desktop Cards, a visual widget gallery, eight event graph styles, scoped buffered-event summaries, event inspectors and correlation maps.",
-  "spotlight_description": "EventViewer 1.4 adds Low Effort Suite cross-app theme, accent, and persistent Dock icon synchronization across EventViewer, PerfMon, and VolMan, alongside the six-preview widget gallery, optional Cards presentation, and eight buffered event graph styles.",
-  "catalog_description": "Native macOS event exploration with cross-app Low Effort Suite theme and persistent Dock icon sync, optional rounded desktop Cards, a visual widget gallery, eight event graph styles, scoped buffered-event summaries, event inspectors and correlation maps.",
+  "short_description": "Native macOS event exploration with Low Effort Suite v2.0 cross-app theme and persistent Dock icon sync, optional rounded desktop Cards, a visual widget gallery, eight event graph styles, scoped buffered-event summaries, event inspectors and correlation maps.",
+  "spotlight_description": "EventMon v2.0 standardizes the Low Effort Suite across PerfMon, EventMon, VolMon, and WebMon with cross-app theme, accent, and persistent Dock icon synchronization, alongside the six-preview widget gallery, optional Cards presentation, and eight buffered event graph styles.",
+  "catalog_description": "Native macOS event exploration with Low Effort Suite v2.0 cross-app theme and persistent Dock icon sync, optional rounded desktop Cards, a visual widget gallery, eight event graph styles, scoped buffered-event summaries, event inspectors and correlation maps.",
   "spotlight_chips": [
-    "Low Effort Suite Theme & Icon Sync",
+    "Low Effort Suite v2.0 Sync",
     "Visual Widget Gallery",
     "Eight Event Graph Styles",
     "Optional Card HUDs",
@@ -20,12 +20,12 @@
     "Saved Custom Filter Views",
     "Sub-Second Desktop HUDs",
     "Modular Custom Widgets",
-    "Menu Bar Builder (EV Icon)",
+    "Menu Bar Builder (EM Icon)",
     "9 Themes & Dock Icons",
     "Zero Telemetry Capture"
   ],
   "catalog_chips": [
-    "Cross-app theme & icon sync",
+    "Low Effort Suite v2.0 sync",
     "Visual widget gallery",
     "Eight graph styles",
     "Scoped event Cards",
@@ -38,14 +38,14 @@
     "Live event ticker HUD",
     "Security & auth HUD",
     "Modular custom widgets",
-    "EV monogram menu bar",
+    "EM monogram menu bar",
     "60s stacked rate chart",
     "9 studio themes & icons",
     "Sortable & moveable columns",
     "CSV / JSON / XML export",
     "Zero telemetry capture"
   ],
-  "repo_url": "https://github.com/LowEffortDigital/EventViewer",
-  "releases_url": "https://github.com/LowEffortDigital/EventViewer/releases",
-  "dmg_url": "https://github.com/LowEffortDigital/EventViewer/releases/latest/download/EventViewer.dmg"
+  "repo_url": "https://github.com/LowEffortDigital/EventMon",
+  "releases_url": "https://github.com/LowEffortDigital/EventMon/releases",
+  "dmg_url": "https://github.com/LowEffortDigital/EventMon/releases/latest/download/EventMon.dmg"
 }
