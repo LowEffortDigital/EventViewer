@@ -1,0 +1,50 @@
+{
+  "version": "1.3",
+  "build": {
+    "command": "./Scripts/build_app.sh",
+    "result": "passed",
+    "signature": "strict ad-hoc verification passed",
+    "bundle_version": "1.3",
+    "bundle_build": "4"
+  },
+  "source_sha256": "8aa66accbdd1a0e9a1126d84ed06ad71fed4eda29ee4dd93e7bd97f17e61e590",
+  "base_revision": "f21b6756f913394a13163829bbd1da83c4843c07",
+  "runtime": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "provider": "openai",
+    "cli_version": "0.166.0-alpha.5.1",
+    "verified_by": "installed metadata-only runtime_provenance.py"
+  },
+  "toolchain": "Apple Swift version 6.4.2 (swiftlang-6.4.2.1.9 clang-2100.4.1.1)\nTarget: arm64-apple-macosx27.0.0",
+  "tests": {
+    "command": "swift test",
+    "executed": 21,
+    "passed": 21,
+    "failed": 0,
+    "skipped": 0,
+    "log_sha256": "0024d9372bac0e2b96fb718e9bd649503ac3eda823068db35b5ac4893f24c38a"
+  },
+  "package": {
+    "command": "./Scripts/package_dmg.sh",
+    "result": "passed",
+    "sha256": "748f6ad0af04ae0cb4019466a45b67114c89af77336c972ef5965243954febfe"
+  },
+  "review": {
+    "report": "independent-eventviewer-v1.3-review.md",
+    "sha256": "5b8f620dd470c713e832ed7d9a958e594d9c78e9a6b50ed52680d6518d343ab5",
+    "result": "no material source correctness issue; native QA/publication separately pending"
+  },
+  "preservation": {
+    "four_builtin_hud_sources_match_baseline": true,
+    "installed_domains_unchanged": true,
+    "hash_record": "installed-settings-before.json"
+  },
+  "native": {
+    "interaction": "Gallery six previews, selection, Cancel no addition, Add once, all eight live Card styles, close disables, re-enable, adaptive and fixed-overflow controls exercised in isolated QA bundle",
+    "fixtures": "all eight styles light/dark plus empty/overflow; native live screenshots retained",
+    "limits": "Synthetic header drag attempted; physical movement and multi-display not established. Existing built-ins unchanged by source comparison.",
+    "public_preview": "sample-only native product-view render; native gallery screenshot also retained"
+  },
+  "publication": "draft PR3; corrected CI pending; no merge or release yet"
+}

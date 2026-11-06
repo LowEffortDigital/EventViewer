@@ -1,0 +1,10 @@
+{
+  "com.loweffort.eventviewer": {
+    "existed": true,
+    "sha256": "d9b8bb7d70944d0a88e4e4f37d7e0e60554232ba818241297e961540b28cd941"
+  },
+  "com.loweffort.perfmon": {
+    "existed": true,
+    "sha256": "8daacf0a5196817cb2bd7a2d372c2da1ea91a9212ebd2bf03f122fad79174533"
+  }
+}

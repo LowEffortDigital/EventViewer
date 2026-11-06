@@ -10,7 +10,7 @@
 
 <img src="Resources/branding/app_icon_512.png" alt="EventViewer Logo" width="112" height="112" />
 
-# EventViewer for macOS (v1.3)
+# EventViewer for macOS (v1.4)
 
 **Windows 11 Event Viewer Clarity × Native macOS Unified Logging, Interactive Event Flow Topology & Liquid Glass Desktop HUDs**
 
@@ -88,7 +88,7 @@ Designed and engineered by **Low Effort Design Studios** as the companion diagno
 
 ### Direct Download (`.dmg`)
 Download the latest universal macOS disk image from GitHub Releases:
-- [**Download EventViewer.dmg (v1.3)**](https://github.com/LowEffortDigital/EventViewer/releases/latest/download/EventViewer.dmg)
+- [**Download EventViewer.dmg (v1.4)**](https://github.com/LowEffortDigital/EventViewer/releases/latest/download/EventViewer.dmg)
 
 ### Build from Source
 ```bash

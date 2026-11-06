@@ -45,4 +45,4 @@
 
 Settings → Custom Widgets → Widget Gallery shows six sample previews. Select a preview and Add Widget, then configure its scope, summary, graph and scale. Existing custom HUDs remain Classic; built-in HUD layouts are unchanged. Cards summarize timestamped events retained in the selected buffer, with 60 intervals at the sampling cadence. The eight graph forms include severity composition and paired error/warning rates; adaptive/fixed domains do not alter alert thresholds. An empty target never silently switches to the global stream.
 
-![EventViewer native Card previews — sample data](docs/screenshots/06_Widget_Cards.png)
+![EventViewer native Card previews — sample data](screenshots/06_Widget_Cards.png)
